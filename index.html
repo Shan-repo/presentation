@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#FF4446">
+
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#FF4446">
+
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FF4446">
+
+    <!-- SEO Stuff -->
+    <meta name="audience" lang="en" content="all">
+    <meta name="expires" content="7 days">
+    <meta name="robots" content="follow">
+    <meta name="revisit-after" content="7 days">
+    <meta name="page-topic" content="Javascript Presentation Library">
+    <meta name="copyright" content="Simon Reinisch">
+    <meta name="author" content="Simon Reinisch">
+    <meta name="description"
+          content="Minimalistic javascript presentation-library. Zero dependencies. Can be used in combination with frameworks like Bootstrap, Materialize, Vue etc.">
+    <meta name="keywords" content="presentations, presentation, js-libray, slides, slideshow">
+
+    <!-- Open Graph tags -->
+    <meta property="og:image" content="/logo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://simonwep.github.io/presentr/">
+    <meta property="og:site_name" content="Presentr">
+    <meta property="og:title" content="Presentr">
+    <meta property="og:description"
+          content="Minimalistic javascript presentation-library. Zero dependencies. Can be used in combination with frameworks like Bootstrap, Materialize, Vue etc.">
+
+    <title>Planiteer Portfolio</title>
+
+    <!-- Icons -->
+    <link rel="icon" href="logo.png">
+    <link rel="fluid-icon" href="logo.png">
+    <link rel="apple-touch-icon" href="logo.png"/>
+
+    <!-- Style sheets -->
+    <link rel="stylesheet" href="demo/styles.css">
+</head>
+<body>
+
+
+<div class="presentr">
+    <div class="progress"></div>
+
+    <div class="slides">
+
+        <!-- Slide 1 -->
+        <section class="welcome">
+            <h1>Planiteer Portfolio</h1>
+        </section>
+
+        <!-- Slide 2 -->
+        <section class="features">
+            <h2 class="frag">Problem Statement</h2>
+            <div class="list">
+                <p class="frag">A simplified, central tool integrated into Planit Connect to replace the current CV process. </p>
+                <p class="frag">It provides Planit employees a simple way to manage their CV and Account Directors an effortless way to find the right candidate.</p>
+            </div>
+        </section>
+<!-- Slide 2 -->
+        <section class="setup">
+            <h2 class="frag">Current Approach</h2>
+            <div class="methods">
+                <div class="frag method">
+                    <h3>Scenario 1</h3>
+                    <img alt="gzip size" src="https://img.badgesize.io/https://raw.githubusercontent.com/Simonwep/presentr/master/dist/presentr.min.js?compression=gzip&style=flat-square"/>
+                </div>
+                <div class="frag method">
+                    <h3>Scenario 2</h3>
+                    <code>$ npm install @simonwep/presentr</code>
+                </div>
+            </div>
+               
+        </section>
+
+           <!-- Slide 3 -->
+           <section class="features">
+            <h6 class="frag">Issues with current approach</h6>
+            <div class="list">
+                <p class="frag"> Finding resources with right experience and skill set is difficult with current approach</p>
+                <p class="frag"> Account directors might not have the latest profile those who are on bench.</p>
+                <p class="frag"> Profile needs to be reviewed before sharing saving it to sharepoint</p>
+                <p class="frag"> There is a high chance of missing the latest profile</p>
+                <p class="frag"> Employee might find difficult to have all the information in the word document, at times it will look clumsy</p>
+            </div>
+        </section>
+
+        <!-- Slide 4 -->
+        <section class="setup">
+            <h2 class="frag">oh no!! Production issue</h2>
+            <div class="methods">
+                <div class="frag method">
+                    <embed src="CV's.pdf" width="600px" height="600px" />
+                </div>
+               
+            </div>
+               
+        </section>
+
+        <!-- Slide 4 -->
+        <section class="setup">
+            <h2 class="frag">Solution</h2>
+
+            <div class="methods">
+                <div class="frag method">
+                    <h3>Created an app using reactJS</h3>
+
+                </div>
+
+                <div class="frag method">
+                    <h3>Find the right candidate based on stream, experience and tool set who are available on bench.</h3>
+                   
+                </div>
+
+                <div class="frag method">
+                    <h3>Creating/Editing resume is hassle free process.</h3>
+                  
+                </div>
+
+                <div class="frag method">
+                    <h3>Share the URL of the resume to client in UI Rich content</h3>
+                   
+                </div>
+                <div class="frag method">
+                    <h3>Template can be modified as and when required.</h3>
+                   
+                </div>
+                <div class="frag method">
+                    <h3>Download the profile in PDF format and share it to Client</h3>
+                   
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 4 -->
+        <section class="github">
+            <h2>Demo Time!</h2>
+        </section>
+    </div>
+    
+
+</div>
+
+<script src="dist/presentr.min.js"></script>
+<script src="demo/code.js"></script>
+</body>
+</html>
